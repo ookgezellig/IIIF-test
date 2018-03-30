@@ -1,0 +1,218 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://5971ab22-95ad-4a7c-a0c6-2e90b08edf57",
+	"@type": "sc:Manifest",
+	"label": "Wapenboek Beyeren Test Manifest",
+	"metadata": [],
+	"description": "Quick test of IIIF using old armorial from KB",
+	"license": "https://creativecommons.org/share-your-work/public-domain/pdm/",
+	"attribution": "Koninklijke Bibliotheek, 30 march 2018",
+	"sequences": [
+		{
+			"@id": "http://2bf2d233-9cac-4cb5-9bdd-2fdd3e3da004",
+			"@type": "sc:Sequence",
+			"label": "Wapenboek Beyeren Test Sequence",
+			"canvases": [
+				{
+					"@id": "http://2e1b50b2-478a-4cbd-b311-4e50bc7d9501",
+					"@type": "sc:Canvas",
+					"label": "Wapenboek Beyeren Test Canvas 1",
+					"height": 5169,
+					"width": 4174,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://530d7329-bc4b-4997-891a-3f89d6607430",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/8d82f4258dcd25377c750815432786a5b56809162a7841ca5f7cd190a980a9eb/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/8d82f4258dcd25377c750815432786a5b56809162a7841ca5f7cd190a980a9eb",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 5169,
+								"width": 4174
+							},
+							"on": "http://2e1b50b2-478a-4cbd-b311-4e50bc7d9501"
+						}
+					]
+				},
+				{
+					"@id": "http://7824ebb3-f103-4bc0-b0fa-692085434ec1",
+					"@type": "sc:Canvas",
+					"label": "Wapenboek Beyeren Test Canvas 2",
+					"height": 5169,
+					"width": 7286,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://bbe0b15f-9ccc-46b6-9959-969ec9b4c25f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/8b3d41da41e54ca7d2f60c63794726e6d387cfc2f1016b3e43893a216b3d5792/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/8b3d41da41e54ca7d2f60c63794726e6d387cfc2f1016b3e43893a216b3d5792",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 5169,
+								"width": 7286
+							},
+							"on": "http://7824ebb3-f103-4bc0-b0fa-692085434ec1"
+						}
+					]
+				},
+				{
+					"@id": "http://2d2745b4-c19e-4de1-bd06-292ddb007216",
+					"@type": "sc:Canvas",
+					"label": "Wapenboek Beyeren Test Canvas 3",
+					"height": 5169,
+					"width": 6893,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ba66dc73-4ba9-41da-8c9d-2d6b1ce93312",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/d2594a2645399d76ae84c6821ae4e1faede35ec86e5a5ae768171491bf9f74f8/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/d2594a2645399d76ae84c6821ae4e1faede35ec86e5a5ae768171491bf9f74f8",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 5169,
+								"width": 6893
+							},
+							"on": "http://2d2745b4-c19e-4de1-bd06-292ddb007216"
+						}
+					]
+				},
+				{
+					"@id": "http://29960067-b7f5-483f-bfa7-2ea5344aee65",
+					"@type": "sc:Canvas",
+					"label": "Wapenboek Beyeren Test Canvas 4",
+					"height": 4844,
+					"width": 3853,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://30ad70c7-9704-437c-8ba2-b1887a4eb892",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/c15f8fcfe14966ec7c13266d2979bbc6f2c161455f7908804c66637ce6a2cbc2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/c15f8fcfe14966ec7c13266d2979bbc6f2c161455f7908804c66637ce6a2cbc2",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 4844,
+								"width": 3853
+							},
+							"on": "http://29960067-b7f5-483f-bfa7-2ea5344aee65"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": [],
+	"logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Logo_Koninklijke_Bibliotheek_wordmark.svg/200px-Logo_Koninklijke_Bibliotheek_wordmark.svg.png?uselang=nl",
+	"seeAlso": "https://www.kb.nl/themas/middeleeuwen/wapenboek-beyeren-1405"
+}
