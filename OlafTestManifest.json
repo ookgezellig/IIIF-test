@@ -1,0 +1,106 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://2345f4fa-51aa-42bd-86e5-50e8813e0c95",
+	"@type": "sc:Manifest",
+	"label": "test test",
+	"metadata": [],
+	"description": "test manifest",
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "olaf",
+	"sequences": [
+		{
+			"@id": "http://7d8512e6-aa3e-4379-bdf1-9e1f3491940d",
+			"@type": "sc:Sequence",
+			"label": "rij1",
+			"canvases": [
+				{
+					"@id": "http://0bb7e7ab-a485-4ce8-b993-b69da7c75848",
+					"@type": "sc:Canvas",
+					"label": "1",
+					"height": 1000,
+					"width": 1000,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://c91eff76-05a5-41aa-8e13-976387b2c44a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://localhost:9000/image/v2/aa/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://localhost:9000/image/v2/aa",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"gif"
+											],
+											"supports": [
+												"profileLinkHeader",
+												"canonicalLinkHeader",
+												"regionSquare",
+												"rotationBy90s",
+												"mirroring",
+												"sizeAboveFull"
+											]
+										}
+									]
+								},
+								"height": 1000,
+								"width": 1000
+							},
+							"on": "http://0bb7e7ab-a485-4ce8-b993-b69da7c75848"
+						}
+					]
+				},
+				{
+					"@id": "http://87cdf2d6-418e-4696-be3f-35eddb596926",
+					"@type": "sc:Canvas",
+					"label": "2",
+					"height": 427,
+					"width": 440,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ac0c6bd8-f554-46b9-8390-be2a9d1e3c67",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://localhost:9000/image/v2/bb/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://localhost:9000/image/v2/bb",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"gif"
+											],
+											"supports": [
+												"profileLinkHeader",
+												"canonicalLinkHeader",
+												"regionSquare",
+												"rotationBy90s",
+												"mirroring",
+												"sizeAboveFull"
+											]
+										}
+									]
+								},
+								"height": 427,
+								"width": 440
+							},
+							"on": "http://87cdf2d6-418e-4696-be3f-35eddb596926"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": []
+}
