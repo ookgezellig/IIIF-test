@@ -42,8 +42,8 @@
    <div id="map"></div>
    <script>
       var map = L.map('map', { center: [0, 0], crs: L.CRS.Simple, zoom: 0, dragging:true });
-      var baseLayer = L.tileLayer.iiif('http://free.iiifhosting.com/iiif/ec0b2154208817fc38102496caceab4f383c9bb3765ec2390e708669503cb94b/info.json').addTo(map);
-      var magnifedLayer = L.tileLayer.iiif('http://free.iiifhosting.com/iiif/ec0b2154208817fc38102496caceab4f383c9bb3765ec2390e708669503cb94b/info.json');
+      var baseLayer = L.tileLayer.iiif('http://free.iiifhosting.com/iiif/d2594a2645399d76ae84c6821ae4e1faede35ec86e5a5ae768171491bf9f74f8/info.json').addTo(map);
+      var magnifedLayer = L.tileLayer.iiif('http://free.iiifhosting.com/iiif/d2594a2645399d76ae84c6821ae4e1faede35ec86e5a5ae768171491bf9f74f8/info.json');
       var magnifyingGlass = L.magnifyingGlass({
       layers: [magnifedLayer],
       fixedZoom: 4,
