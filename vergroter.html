@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.1.0/dist/leaflet.css" />
+      <script src="https://unpkg.com/leaflet@1.1.0/dist/leaflet.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdn.rawgit.com/mejackreed/Leaflet-IIIF/v1.2.1/leaflet-iiif.js"></script>
+      <script src="https://cdn.rawgit.com/ookgezellig/iiif-test/master/leaflet-mag.js"></script>
+      
+      <style>
+         html, body, #map{
+         height: 100%;
+         margin: 0;
+         }
+         .leaflet-magnifying-glass {
+         border-radius: 50%;
+         border: 1px solid gray;
+         box-shadow: 0 0 5px gray;
+         position: absolute;
+         overflow: hidden;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         }
+         
+         .leaflet-magnifying-glass > .leaflet-container {
+         height: 	100%;
+         width: 	100%;
+         }
+         
+         /* Webkit-only workaround for the border-radius clipping bug,
+         applied to the map container */
+         .leaflet-magnifying-glass-webkit {
+         border-radius: 50%;
+         -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+         }
+      </style>
+</head>
+<body>   <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Logo_koninklijke_bibliotheek.svg/500px-Logo_koninklijke_bibliotheek.svg.png"/></p>
+   <h1>&nbsp;&nbsp;Beeldvergroter o.b.v. IIIF</h1>
+   <p><i>&nbsp;&nbsp;&nbsp;&nbsp;Er worden twee grote afbeeldingen geladen... dit kan even duren... </i></p> 
+   <div id="map"></div>
+   <script>
+      var map = L.map('map', { center: [0, 0], crs: L.CRS.Simple, zoom: 0, dragging:true });
+      var baseLayer = L.tileLayer.iiif('http://free.iiifhosting.com/iiif/ec0b2154208817fc38102496caceab4f383c9bb3765ec2390e708669503cb94b/info.json').addTo(map);
+      var magnifedLayer = L.tileLayer.iiif('http://free.iiifhosting.com/iiif/ec0b2154208817fc38102496caceab4f383c9bb3765ec2390e708669503cb94b/info.json');
+      var magnifyingGlass = L.magnifyingGlass({
+      layers: [magnifedLayer],
+      fixedZoom: 4,
+      radius: 150
+      }).addTo(map);
+   </script>
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;Deze demo is gebaseerd op: 
+      <ul>
+         <li>Een <a href="https://commons.wikimedia.org/wiki/File:Atlas_Van_der_Hagen-KW1049B10_083-TABULA_GEOGRAPHICA_QUA_PARS_SEPTENTRIONALIS_SIVE_INFERIOR_RHENI,_MOSAE,_ET_MOSSELAE,_maximaeque_partes_VISURGIS,_MOENI,_AMASI,_SCALDIS,_ISALAE,_et_alia_in_eosdem_influentia_Flumina.jpeg" target="_blank">historische kaart</a> uit <a href="https://commons.wikimedia.org/wiki/Category:Atlas_van_der_Hagen" target="_blank">Atlas van der Hagen</a> uit de <a href="https://www.kb.nl/themas/atlassen/meer-atlassen/atlas-van-dirk-van-der-hagen" target="_blank">collectie van de KB</a></li>
+         <li>Code van <a href="http://resources.digirati.com/iiif/an-introduction-to-iiif/dee-mag.html" target="_blank">http://resources.digirati.com/iiif/an-introduction-to-iiif/dee-mag.html</a></li>
+      </ul>
+   </p>
+   <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/60561947585c982aee67ed3e3b25388184cc0aa3/687474703a2f2f6d6972726f72732e6372656174697665636f6d6d6f6e732e6f72672f70726573736b69742f627574746f6e732f38387833312f7376672f63632d7a65726f2e737667" alt="CC0" data-canonical-src="http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg" style="max-width:100%;"></a></p>
+</body>
+</html>
