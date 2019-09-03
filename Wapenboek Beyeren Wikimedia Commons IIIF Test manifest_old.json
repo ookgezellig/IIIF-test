@@ -1,0 +1,243 @@
+{
+   "@context": "http://iiif.io/api/presentation/2/context.json",
+   "@id": "http://db251948-233b-4698-b9ce-282b1edd4706",
+   "@type": "sc:Manifest",
+   "label": "Wapenboek Beyeren Test",
+   "metadata": [],
+   "description": "Quick hacky test of using IIIF for images oin Wikimedia Commons",
+   "license": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Koninklijke Bibliotheek",
+   "sequences": [{
+      "@id": "http://26b864b7-1e02-408a-99e8-3f360ae19b1d",
+      "@type": "sc:Sequence",
+      "label": "Wapenboek Beyeren Test Sequence 1",
+      "canvases": [
+         {
+            "@id": "http://63fd4643-bdb0-4bcb-a564-f0183795ed0a",
+            "@type": "sc:Canvas",
+            "label": "1",
+            "height": 5169,
+            "width": 7286,
+            "images": [{
+               "@context": "http://iiif.io/api/presentation/2/context.json",
+               "@id": "http://6e9b9a43-2983-4a00-bde2-d19166e00f83",
+               "@type": "oa:Annotation",
+               "motivation": "sc:painting",
+               "resource": {
+                  "@id": "https://tools.wmflabs.org/zoomviewer/iipsrv.fcgi/?iiif=cache/a5aed4c99a1863d775bff16f4b98ffdc.tif/full/full/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "service": {
+                     "@context": "http://iiif.io/api/image/2/context.json",
+                     "@id": "https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=Wapenboek Beyeren (armorial) - KB79K21 - folio 001r (right).jpg",
+                     "profile": [
+                        "http://iiif.io/api/image/2/level1.json",
+                        {
+                           "formats": ["jpg"],
+                           "qualities": [
+                              "native",
+                              "color",
+                              "gray"
+                           ],
+                           "supports": [
+                              "regionByPct",
+                              "sizeByForcedWh",
+                              "sizeByWh",
+                              "sizeAboveFull",
+                              "rotationBy90s",
+                              "mirroring",
+                              "gray"
+                           ]
+                        }
+                     ]
+                  },
+                  "height": 5169,
+                  "width": 7286
+               },
+               "on": "http://63fd4643-bdb0-4bcb-a564-f0183795ed0a"
+            }]
+         },
+         {
+            "@id": "http://c17c13f8-ea8c-47c2-ad7f-f2ee55fdfc2f",
+            "@type": "sc:Canvas",
+            "label": "2",
+            "height": 5169,
+            "width": 6893,
+            "images": [{
+               "@context": "http://iiif.io/api/presentation/2/context.json",
+               "@id": "http://135f6b9c-b354-422e-81a6-3de56e6028c3",
+               "@type": "oa:Annotation",
+               "motivation": "sc:painting",
+               "resource": {
+                  "@id": "https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=Wapenboek Beyeren (armorial) - KB79K21 - folios 001v (left) and 002r (right).jpg/full/full/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "service": {
+                     "@context": "http://iiif.io/api/image/2/context.json",
+                     "@id": "https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=Wapenboek Beyeren (armorial) - KB79K21 - folios 001v (left) and 002r (right).jpg",
+                     "profile": [
+                        "http://iiif.io/api/image/2/level1.json",
+                        {
+                           "formats": ["jpg"],
+                           "qualities": [
+                              "native",
+                              "color",
+                              "gray"
+                           ],
+                           "supports": [
+                              "regionByPct",
+                              "sizeByForcedWh",
+                              "sizeByWh",
+                              "sizeAboveFull",
+                              "rotationBy90s",
+                              "mirroring",
+                              "gray"
+                           ]
+                        }
+                     ]
+                  },
+                  "height": 5169,
+                  "width": 6893
+               },
+               "on": "http://c17c13f8-ea8c-47c2-ad7f-f2ee55fdfc2f"
+            }]
+         },
+         {
+            "@id": "http://49f28362-7188-4f62-ad6b-ab92c64e903e",
+            "@type": "sc:Canvas",
+            "label": "3",
+            "height": 5169,
+            "width": 6764,
+            "images": [{
+               "@context": "http://iiif.io/api/presentation/2/context.json",
+               "@id": "http://eacc6840-75f0-4d7c-a078-ca2b6af3b093",
+               "@type": "oa:Annotation",
+               "motivation": "sc:painting",
+               "resource": {
+                  "@id": "https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=Wapenboek Beyeren (armorial) - KB79K21 - folios 008v (left) and 018r (right).jpg/full/full/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "service": {
+                     "@context": "http://iiif.io/api/image/2/context.json",
+                     "@id": "https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=Wapenboek Beyeren (armorial) - KB79K21 - folios 008v (left) and 018r (right).jpg",
+                     "profile": [
+                        "http://iiif.io/api/image/2/level1.json",
+                        {
+                           "formats": ["jpg"],
+                           "qualities": [
+                              "native",
+                              "color",
+                              "gray"
+                           ],
+                           "supports": [
+                              "regionByPct",
+                              "sizeByForcedWh",
+                              "sizeByWh",
+                              "sizeAboveFull",
+                              "rotationBy90s",
+                              "mirroring",
+                              "gray"
+                           ]
+                        }
+                     ]
+                  },
+                  "height": 5169,
+                  "width": 6764
+               },
+               "on": "http://49f28362-7188-4f62-ad6b-ab92c64e903e"
+            }]
+         },
+         {
+            "@id": "http://18e3ae35-748f-43e0-bd25-32c54a14e7ec",
+            "@type": "sc:Canvas",
+            "label": "4",
+            "height": 5169,
+            "width": 6718,
+            "images": [{
+               "@context": "http://iiif.io/api/presentation/2/context.json",
+               "@id": "http://e3d4a875-bcd6-4418-892d-10c21768636d",
+               "@type": "oa:Annotation",
+               "motivation": "sc:painting",
+               "resource": {
+                  "@id": "https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=Wapenboek Beyeren (armorial) - KB79K21 - folios 047v (left) and 048r (right).jpg/full/full/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "service": {
+                     "@context": "http://iiif.io/api/image/2/context.json",
+                     "@id": "https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=Wapenboek Beyeren (armorial) - KB79K21 - folios 047v (left) and 048r (right).jpg",
+                     "profile": [
+                        "http://iiif.io/api/image/2/level1.json",
+                        {
+                           "formats": ["jpg"],
+                           "qualities": [
+                              "native",
+                              "color",
+                              "gray"
+                           ],
+                           "supports": [
+                              "regionByPct",
+                              "sizeByForcedWh",
+                              "sizeByWh",
+                              "sizeAboveFull",
+                              "rotationBy90s",
+                              "mirroring",
+                              "gray"
+                           ]
+                        }
+                     ]
+                  },
+                  "height": 5169,
+                  "width": 6718
+               },
+               "on": "http://18e3ae35-748f-43e0-bd25-32c54a14e7ec"
+            }]
+         },
+         {
+            "@id": "http://a60118c2-4bd1-43a7-989f-42aa48413f55",
+            "@type": "sc:Canvas",
+            "label": "5",
+            "height": 5169,
+            "width": 6841,
+            "images": [{
+               "@context": "http://iiif.io/api/presentation/2/context.json",
+               "@id": "http://6c6fb3a2-cbbc-4a9f-88c9-cbe43b1d45f3",
+               "@type": "oa:Annotation",
+               "motivation": "sc:painting",
+               "resource": {
+                  "@id": "https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=Wapenboek Beyeren (armorial) - KB79K21 - folios 062v (left) and 063r (right).jpg/full/full/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "service": {
+                     "@context": "http://iiif.io/api/image/2/context.json",
+                     "@id": "https://tools.wmflabs.org/zoomviewer/proxy.php?iiif=Wapenboek Beyeren (armorial) - KB79K21 - folios 062v (left) and 063r (right).jpg",
+                     "profile": [
+                        "http://iiif.io/api/image/2/level1.json",
+                        {
+                           "formats": ["jpg"],
+                           "qualities": [
+                              "native",
+                              "color",
+                              "gray"
+                           ],
+                           "supports": [
+                              "regionByPct",
+                              "sizeByForcedWh",
+                              "sizeByWh",
+                              "sizeAboveFull",
+                              "rotationBy90s",
+                              "mirroring",
+                              "gray"
+                           ]
+                        }
+                     ]
+                  },
+                  "height": 5169,
+                  "width": 6841
+               },
+               "on": "http://a60118c2-4bd1-43a7-989f-42aa48413f55"
+            }]
+         }
+      ]
+   }],
+   "structures": []
+}

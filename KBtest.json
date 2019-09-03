@@ -1,0 +1,198 @@
+{
+   "@context": "http://iiif.io/api/presentation/2/context.json",
+   "@id": "http://5971ab22-95ad-4a7c-a0c6-2e90b08edf57",
+   "@type": "sc:Manifest",
+   "label": "KB Test Manifest",
+   "metadata": [],
+   "description": "Quick hacky test of IIIF using old stuff from KB",
+   "license": "https://creativecommons.org/share-your-work/public-domain/pdm/",
+   "attribution": "Koninklijke Bibliotheek, 14 May 2018",
+   "sequences": [{
+      "@id": "http://2bf2d233-9cac-4cb5-9bdd-2fdd3e3da004",
+      "@type": "sc:Sequence",
+      "label": "Mooie oude plaatjes",
+      "canvases": [
+         {
+            "@id": "http://2e1b50b2-478a-4cbd-b311-4e50bc7d9501",
+            "@type": "sc:Canvas",
+            "label": "Atlas van der Hagen",
+            "height": 5169,
+            "width": 4174,
+            "images": [{
+               "@context": "http://iiif.io/api/presentation/2/context.json",
+               "@id": "http://530d7329-bc4b-4997-891a-3f89d6607430",
+               "@type": "oa:Annotation",
+               "motivation": "sc:painting",
+               "resource": {
+                  "@id": "http://127.0.0.1:8182/iiif/2/vanderhagen1.jpg/full/full/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "service": {
+                     "@context": "http://iiif.io/api/image/2/context.json",
+                     "@id": "http://127.0.0.1:8182/iiif/2/vanderhagen1.jpg",
+                     "profile": [
+                        "http://iiif.io/api/image/2/level1.json",
+                        {
+                           "formats": ["jpg"],
+                           "qualities": [
+                              "native",
+                              "color",
+                              "gray"
+                           ],
+                           "supports": [
+                              "regionByPct",
+                              "regionSquare",
+                              "sizeByForcedWh",
+                              "sizeByWh",
+                              "sizeAboveFull",
+                              "rotationBy90s",
+                              "mirroring"
+                           ]
+                        }
+                     ]
+                  },
+                  "height": 5169,
+                  "width": 4174
+               },
+               "on": "http://2e1b50b2-478a-4cbd-b311-4e50bc7d9501"
+            }]
+         },
+         {
+            "@id": "http://7824ebb3-f103-4bc0-b0fa-692085434ec1",
+            "@type": "sc:Canvas",
+            "label": "Atlas de Wit",
+            "height": 5169,
+            "width": 7286,
+            "images": [{
+               "@context": "http://iiif.io/api/presentation/2/context.json",
+               "@id": "http://bbe0b15f-9ccc-46b6-9959-969ec9b4c25f",
+               "@type": "oa:Annotation",
+               "motivation": "sc:painting",
+               "resource": {
+                  "@id": "http://127.0.0.1:8182/iiif/2/Atlas_de_Wit_1698-1.jpg/full/full/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "service": {
+                     "@context": "http://iiif.io/api/image/2/context.json",
+                     "@id": "http://127.0.0.1:8182/iiif/2/Atlas_de_Wit_1698-1.jpg",
+                     "profile": [
+                        "http://iiif.io/api/image/2/level1.json",
+                        {
+                           "formats": ["jpg"],
+                           "qualities": [
+                              "native",
+                              "color",
+                              "gray"
+                           ],
+                           "supports": [
+                              "regionByPct",
+                              "regionSquare",
+                              "sizeByForcedWh",
+                              "sizeByWh",
+                              "sizeAboveFull",
+                              "rotationBy90s",
+                              "mirroring"
+                           ]
+                        }
+                     ]
+                  },
+                  "height": 5169,
+                  "width": 7286
+               },
+               "on": "http://7824ebb3-f103-4bc0-b0fa-692085434ec1"
+            }]
+         },
+         {
+            "@id": "http://2d2745b4-c19e-4de1-bd06-292ddb007216",
+            "@type": "sc:Canvas",
+            "label": "Atlas Ortelius",
+            "height": 5169,
+            "width": 6893,
+            "images": [{
+               "@context": "http://iiif.io/api/presentation/2/context.json",
+               "@id": "http://ba66dc73-4ba9-41da-8c9d-2d6b1ce93312",
+               "@type": "oa:Annotation",
+               "motivation": "sc:painting",
+               "resource": {
+                  "@id": "http://127.0.0.1:8182/iiif/2/Atlas_Ortelius_KB_1.jpg/full/full/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "service": {
+                     "@context": "http://iiif.io/api/image/2/context.json",
+                     "@id": "http://127.0.0.1:8182/iiif/2/Atlas_Ortelius_KB_1.jpg",
+                     "profile": [
+                        "http://iiif.io/api/image/2/level1.json",
+                        {
+                           "formats": ["jpg"],
+                           "qualities": [
+                              "native",
+                              "color",
+                              "gray"
+                           ],
+                           "supports": [
+                              "regionByPct",
+                              "regionSquare",
+                              "sizeByForcedWh",
+                              "sizeByWh",
+                              "sizeAboveFull",
+                              "rotationBy90s",
+                              "mirroring"
+                           ]
+                        }
+                     ]
+                  },
+                  "height": 5169,
+                  "width": 6893
+               },
+               "on": "http://2d2745b4-c19e-4de1-bd06-292ddb007216"
+            }]
+         },
+         {
+            "@id": "http://29960067-b7f5-483f-bfa7-2ea5344aee65",
+            "@type": "sc:Canvas",
+            "label": "Kattendijke",
+            "height": 4844,
+            "width": 3853,
+            "images": [{
+               "@context": "http://iiif.io/api/presentation/2/context.json",
+               "@id": "http://30ad70c7-9704-437c-8ba2-b1887a4eb892",
+               "@type": "oa:Annotation",
+               "motivation": "sc:painting",
+               "resource": {
+                  "@id": "http://127.0.0.1:8182/iiif/2/Kattendijkekroniek_1.jpg/full/full/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "service": {
+                     "@context": "http://iiif.io/api/image/2/context.json",
+                     "@id": "http://127.0.0.1:8182/iiif/2/Kattendijkekroniek_1.jpg",
+                     "profile": [
+                        "http://iiif.io/api/image/2/level1.json",
+                        {
+                           "formats": ["jpg"],
+                           "qualities": [
+                              "native",
+                              "color",
+                              "gray"
+                           ],
+                           "supports": [
+                              "regionByPct",
+                              "regionSquare",
+                              "sizeByForcedWh",
+                              "sizeByWh",
+                              "sizeAboveFull",
+                              "rotationBy90s",
+                              "mirroring"
+                           ]
+                        }
+                     ]
+                  },
+                  "height": 4844,
+                  "width": 3853
+               },
+               "on": "http://29960067-b7f5-483f-bfa7-2ea5344aee65"
+            }]
+         }
+      ]
+   }],
+   "structures": []
+}
